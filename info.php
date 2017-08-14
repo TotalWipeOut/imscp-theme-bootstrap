@@ -19,12 +19,11 @@
  */
 
 return array(
-	'theme_name' => 'default',
+	'theme_name' => 'bootstrap',
 	'theme_version' => '1.0.0',
 	'theme_authors' => array(
-		'Henrik Schytte' => 'henrik@schytte.net',
-		'Marc Pujol' => 'kilburn@la3.org'
+		'Kevin' => 'kevin@totalwipeout.com'
 	),
-	'theme_licence' => 'GPLv2++',
+	'theme_licence' => 'MIT',
 	'theme_color_set' => array('black', 'blue', 'green', 'red', 'yellow')
 );
