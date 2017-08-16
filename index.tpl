@@ -1,6 +1,6 @@
 
 <div id="login" class="row">
-    <form name="login" action="index.php" method="post" class="col">
+    <form name="login" action="index.php" method="post" class="col-6 col-offset-3">
         <div class="form-group row">
             <label for="uname" class="col-sm-2 col-form-label">{TR_USERNAME}</label>
             <div class="col-sm-10">
@@ -11,8 +11,10 @@
         </div>
         <div class="form-group row">
             <label for="upass" class="col-sm-2 col-form-label">Password</label>
-            <input type="password" class="form-control form-control-lg" id="password"
-                   name="upass" placeholder="Password">
+            <div class="col-sm-10">
+                <input type="password" class="form-control form-control-lg" id="password"
+                       name="upass" placeholder="Password">
+            </div>
         </div>
         <div class="row">
             <div class="col">
