@@ -1,33 +1,33 @@
 
-<div id="login" class="row">
+<div id="login" class="row" style="margin-top: 100px">
     <form name="login" action="index.php" method="post" class="col-6 mr-auto ml-auto">
         <div class="form-group row">
-            <label for="uname" class="col-sm-2 col-form-label">{TR_USERNAME}</label>
-            <div class="col-sm-10">
+            <label for="uname" class="col-sm-3 col-form-label-lg">{TR_USERNAME}</label>
+            <div class="col-sm-9">
                 <input type="text" class="form-control form-control-lg" name="uname" id="uname"
                        value="{UNAME}" aria-describedby="emailHelp" placeholder="Enter username">
                 <small id="emailHelp" class="form-text text-muted">The one you signed up with.</small>
             </div>
         </div>
         <div class="form-group row">
-            <label for="upass" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
+            <label for="upass" class="col-sm-3 col-form-label-lg">Password</label>
+            <div class="col-sm-9">
                 <input type="password" class="form-control form-control-lg" id="password"
                        name="upass" placeholder="Password">
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-sm-5 ml-auto">
                 <!-- BDP: lost_password_support -->
                 <a class="link_as_button" href="lostpassword.php">{TR_LOSTPW}</a>
                 <!-- EDP: lost_password_support -->
             </div>
-            <div class="col">
+            <div class="col-sm-5 text-right">
                 <button type="submit" name="Submit" tabindex="3">{TR_LOGIN}</button>
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-sm-10 ml-auto">
                 <a class="icon {SSL_IMAGE_CLASS}" href="{SSL_LINK}" title="{TR_SSL_DESCRIPTION}">{TR_SSL}</a>
             </div>
         </div>
