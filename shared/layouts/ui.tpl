@@ -5,7 +5,6 @@
     <meta charset="{THEME_CHARSET}">
     <meta name="robots" content="nofollow, noindex">
     <link rel="shortcut icon" href="{THEME_ASSETS_PATH}/images/favicon.ico">
-    <link rel="shortcut icon" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="{THEME_ASSETS_PATH}/css/jquery-ui-{THEME_COLOR}.css?v={THEME_ASSETS_VERSION}">
     <link rel="stylesheet" href="{THEME_ASSETS_PATH}/css/ui.css?v={THEME_ASSETS_VERSION}">
     <link rel="stylesheet" href="{THEME_ASSETS_PATH}/css/{THEME_COLOR}.css?v={THEME_ASSETS_VERSION}">
