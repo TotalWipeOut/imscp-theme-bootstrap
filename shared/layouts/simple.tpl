@@ -25,7 +25,7 @@
 <div class="container">
     <!-- BDP: header_block -->
     <header id="header" class="row">
-        <div id="logo" class="col"><span>{productLongName}</span></div>
+        <div id="logo" class="col"><h3>{productLongName}</h3></div>
         <div id="copyright" class="col text-right">
             <span><a href="{productLink}" target="blank">{productCopyright}</a></span>
         </div>

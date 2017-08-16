@@ -1,10 +1,10 @@
 
 <div id="login" class="row">
-    <form name="login" action="index.php" method="post" class="col-6 col-offset-3">
+    <form name="login" action="index.php" method="post" class="col-6 mr-auto ml-auto">
         <div class="form-group row">
             <label for="uname" class="col-sm-2 col-form-label">{TR_USERNAME}</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control form-control-lg" id="uname"
+                <input type="text" class="form-control form-control-lg" name="uname" id="uname"
                        value="{UNAME}" aria-describedby="emailHelp" placeholder="Enter username">
                 <small id="emailHelp" class="form-text text-muted">The one you signed up with.</small>
             </div>
