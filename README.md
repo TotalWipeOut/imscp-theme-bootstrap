@@ -1,2 +1,2 @@
 # imscp-theme-bootstrap
-Vanilla bootstrap 3 theme for i-MSCP hosting panel
+Vanilla Bootstrap 4 theme for i-MSCP hosting panel

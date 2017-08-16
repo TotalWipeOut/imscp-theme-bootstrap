@@ -1,7 +1,36 @@
-ROCKETFUEL
-<div id="login">
-    <form name="login" action="index.php" method="post">
-        <table>
+
+<div id="login" class="row">
+    <form name="login" action="index.php" method="post" class="col">
+        <div class="form-group row">
+            <label for="uname" class="col-sm-2 col-form-label">{TR_USERNAME}</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control form-control-lg" id="uname"
+                       value="{UNAME}" aria-describedby="emailHelp" placeholder="Enter username">
+                <small id="emailHelp" class="form-text text-muted">The one you signed up with.</small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="upass" class="col-sm-2 col-form-label">Password</label>
+            <input type="password" class="form-control form-control-lg" id="password"
+                   name="upass" placeholder="Password">
+        </div>
+        <div class="row">
+            <div class="col">
+                <!-- BDP: lost_password_support -->
+                <a class="link_as_button" href="lostpassword.php">{TR_LOSTPW}</a>
+                <!-- EDP: lost_password_support -->
+            </div>
+            <div class="col">
+                <button type="submit" name="Submit" tabindex="3">{TR_LOGIN}</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a class="icon {SSL_IMAGE_CLASS}" href="{SSL_LINK}" title="{TR_SSL_DESCRIPTION}">{TR_SSL}</a>
+            </div>
+        </div>
+
+        <!--<table>
             <tr>
                 <td class="left"><label for="uname">{TR_USERNAME}</label></td>
                 <td class="right"><input type="text" name="uname" id="uname" value="{UNAME}"></td>
@@ -12,20 +41,16 @@ ROCKETFUEL
             </tr>
             <tr>
                 <td colspan="2" class="right">
-                    <!-- BDP: lost_password_support -->
                     <a class="link_as_button" href="lostpassword.php">{TR_LOSTPW}</a>
-                    <!-- EDP: lost_password_support -->
                     <button type="submit" name="Submit" tabindex="3">{TR_LOGIN}</button>
                 </td>
             </tr>
-            <!-- BDP: ssl_support -->
             <tr>
                 <td colspan="2" class="center">
                     <a class="icon {SSL_IMAGE_CLASS}" href="{SSL_LINK}" title="{TR_SSL_DESCRIPTION}">{TR_SSL}</a>
                 </td>
             </tr>
-            <!-- EDP: ssl_support -->
-        </table>
+        </table>-->
         <input type="hidden" name="action" value="login">
     </form>
 </div>

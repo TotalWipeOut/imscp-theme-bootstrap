@@ -25,5 +25,5 @@ return array(
 		'Kevin' => 'kevin@totalwipeout.com'
 	),
 	'theme_licence' => 'MIT',
-	'theme_color_set' => array('black', 'blue', 'green', 'red', 'yellow')
+	'theme_color_set' => array('default')
 );
