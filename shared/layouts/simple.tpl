@@ -15,20 +15,39 @@
         .gradient {  
           width: 100%;
           height: 100%;
-         
+
           background: #FFF;
-          background-image: 
+          background-image:
            -webkit-radial-gradient(80% 10%, circle, #BF7667, transparent),
            -webkit-radial-gradient(80% 50%, circle, #EFDDB7, transparent),
            -webkit-radial-gradient(20% 80%, 40em 40em, #977351, transparent),
            -webkit-radial-gradient(10% 10%, circle, #E1C3B9, transparent);
         }
-	.gradient2 {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3565b7+0,839ec1+22,9998ad+33,929baa+50,9b8d81+67,605b52+82,542400+100 */
-background: #3565b7; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #3565b7 0%, #839ec1 22%, #9998ad 33%, #929baa 50%, #9b8d81 67%, #605b52 82%, #542400 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #3565b7 0%,#839ec1 22%,#9998ad 33%,#929baa 50%,#9b8d81 67%,#605b52 82%,#542400 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(174deg, #3565b7 0%,#839ec1 22%,#9998ad 33%,#929baa 50%,#9b8d81 67%,#605b52 82%,#542400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        .gradient2 {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3565b7+0,839ec1+22,9998ad+33,929baa+50,9b8d81+67,605b52+82,542400+100 */
+            background: #3565b7; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #3565b7 0%, #839ec1 22%, #9998ad 33%, #929baa 50%, #9b8d81 67%, #605b52 82%, #542400 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #3565b7 0%,#839ec1 22%,#9998ad 33%,#929baa 50%,#9b8d81 67%,#605b52 82%,#542400 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(174deg, #3565b7 0%,#839ec1 22%,#9998ad 33%,#929baa 50%,#9b8d81 67%,#605b52 82%,#542400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        }
+
+        #header {
+            background-color:#000000;
+            color:#ffffff;
+            font-size:1em;
+            opacity:0.5
+        }
+        #header h3 {
+            font-size: 1em;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
         }
 
     </style>
@@ -45,23 +64,21 @@ background: linear-gradient(174deg, #3565b7 0%,#839ec1 22%,#9998ad 33%,#929baa 5
 
 </head>
 <body class="{THEME_COLOR} simple gradient2">
-
-<div class="container">
     <!-- BDP: header_block -->
-    <header id="header" class="row">
-        <div id="logo" class="col"><h3>{productLongName}</h3></div>
-        <div id="copyright" class="col text-right">
-            <span><a href="{productLink}" target="blank">{productCopyright}</a></span>
-        </div>
+    <header id="header">
+        <h3>{productLongName}</h3>
     </header>
     <!-- EDP: header_block -->
-    <main id="content">
-            <!-- BDP: page_message -->
-            <div id="notice" class="{MESSAGE_CLS}">{MESSAGE}</div>
-            <!-- EDP: page_message -->
-            {LAYOUT_CONTENT}
- 
+    <main id="content" class="container">
+        <!-- BDP: page_message -->
+        <div id="notice" class="{MESSAGE_CLS}">{MESSAGE}</div>
+        <!-- EDP: page_message -->
+        {LAYOUT_CONTENT}
    </main>
-</div>
+    <footer>
+        <div id="copyright" class="text-right">
+            <a href="{productLink}" target="blank">{productCopyright}</a>
+        </div>
+    </footer>
 </body>
 </html>
