@@ -18,11 +18,11 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- BDP: lost_password_support -->
-                        <a class="link_as_button" href="lostpassword.php" class="btn btn-secondary btn-block">{TR_LOSTPW}</a>
+                        <a class="link_as_button btn btn-secondary btn-block" href="lostpassword.php">{TR_LOSTPW}</a>
                         <!-- EDP: lost_password_support -->
                     </div>
                     <div class="col-sm-6 text-right">
-                        <button type="submit" name="Submit" tabindex="3" class="btn btn-primary">{TR_LOGIN}</button>
+                        <button type="submit" name="Submit" tabindex="3" class="btn btn-primary btn-block">{TR_LOGIN}</button>
                     </div>
                 </div>
                 <div class="row">
