@@ -1,5 +1,5 @@
 <div id="login" class="row" style="margin-top: 100px">
-    <form name="login" action="index.php" method="post" class="col-6 mr-auto ml-auto">
+    <form name="login" action="index.php" method="post" class="col-5 mr-auto ml-auto">
         <div class="card" style="background: rgba(255,255,255,0.2)">
             <div class="card-body">
 
@@ -10,7 +10,7 @@
                            value="{UNAME}" aria-describedby="emailHelp" placeholder="Enter username">
                     <small id="emailHelp" class="form-text text-muted">The one you signed up with.</small>
                 </div>
-                <div class="form-group row">
+                <div class="form-group">
                     <label for="upass" class="col-form-label col-form-label-lg">Password</label>
                     <input type="password" class="form-control form-control-lg" id="password"
                            name="upass" placeholder="Password">
@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- BDP: lost_password_support -->
-                        <a class="link_as_button" href="lostpassword.php">{TR_LOSTPW}</a>
+                        <a class="link_as_button" href="lostpassword.php" class="btn btn-secondary btn-block">{TR_LOSTPW}</a>
                         <!-- EDP: lost_password_support -->
                     </div>
                     <div class="col-sm-6 text-right">

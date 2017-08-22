@@ -42,8 +42,6 @@ background: linear-gradient(174deg, #3565b7 0%,#839ec1 22%,#9998ad 33%,#929baa 5
         imscp_i18n = {JS_TRANSLATIONS};
     </script>
     <script src="{THEME_ASSETS_PATH}/js/jquery/jquery.js?v={THEME_ASSETS_VERSION}"></script>
-    <script src="{THEME_ASSETS_PATH}/js/jquery/jquery-ui.js?v={THEME_ASSETS_VERSION}"></script>
-    <script src="{THEME_ASSETS_PATH}/js/imscp.min.js?v={THEME_ASSETS_VERSION}"></script>
 
 </head>
 <body class="{THEME_COLOR} simple gradient2">
