@@ -39,8 +39,8 @@
         }
         #header h3 {
             font-size: 1em;
-            margin-top: 5px;
-            margin-left: 5px;
+            padding-top: 5px;
+            padding-left: 5px;
         }
 
         footer {
