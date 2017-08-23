@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="{THEME_ASSETS_PATH}/images/favicon.ico">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="{THEME_ASSETS_PATH}/css/jquery-ui-black.css?v={THEME_ASSETS_VERSION}">
     <style>
         html {

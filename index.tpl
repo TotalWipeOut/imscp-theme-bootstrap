@@ -6,16 +6,23 @@
             </div>
             <div class="card-body">
 
-
                 <div class="form-group">
-                    <input type="text" class="form-control form-control-lg" name="uname" id="uname"
-                           value="{UNAME}" aria-describedby="emailHelp" placeholder="Enter username">
+                    <div class="input-group input-group-lg">
+                        <span id="username-addon" class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input type="text" class="form-control form-control-lg" name="uname" id="uname"
+                               value="{UNAME}" placeholder="Enter username"
+                               aria-describedby="emailHelp" aria-label="Username">
+                    </div>
                     <small id="emailHelp" class="form-text text-muted">The one you signed up with.</small>
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" id="password"
-                           name="upass" placeholder="Password">
+                    <div class="input-group input-group-lg">
+                        <span id="password-addon" class="input-group-addon"><i class="fa fa-key"></i></span>
+                        <input type="password" class="form-control form-control-lg" id="password"
+                               name="upass" placeholder="Password" aria-label="Password">
+                    </div>
                 </div>
+
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- BDP: lost_password_support -->
