@@ -33,14 +33,13 @@
                         <button type="submit" name="Submit" tabindex="3" class="btn btn-primary btn-block">{TR_LOGIN}</button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-10 ml-auto">
-                        <a class="icon {SSL_IMAGE_CLASS}" href="{SSL_LINK}" title="{TR_SSL_DESCRIPTION}">{TR_SSL}</a>
-                    </div>
-                </div>
-
-
+                
                 <input type="hidden" name="action" value="login">
+            </div>
+            <div class="card-footer">
+                <p class="card-text">
+                    <a class="icon {SSL_IMAGE_CLASS}" href="{SSL_LINK}" title="{TR_SSL_DESCRIPTION}">{TR_SSL}</a>
+                </p>
             </div>
         </div>
     </form>
