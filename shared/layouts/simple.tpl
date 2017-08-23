@@ -11,6 +11,7 @@
     <style>
         html {
             min-height: 100%;
+            position: relative;
         }
         .gradient {  
           width: 100%;
@@ -43,7 +44,7 @@
         }
 
         footer {
-            position: absolute;
+            position: fixed;
             bottom: 0;
             left: 0;
             padding: 5px;
