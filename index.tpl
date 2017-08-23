@@ -8,7 +8,7 @@
 
                 <div class="form-group">
                     <div class="input-group input-group-lg">
-                        <span id="username-addon" class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <span id="username-addon" class="input-group-addon"><i class="fa fa-fw fa-user"></i></span>
                         <input type="text" class="form-control form-control-lg" name="uname" id="uname"
                                value="{UNAME}" placeholder="Enter username"
                                aria-describedby="emailHelp" aria-label="Username">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group">
                     <div class="input-group input-group-lg">
-                        <span id="password-addon" class="input-group-addon"><i class="fa fa-key"></i></span>
+                        <span id="password-addon" class="input-group-addon"><i class="fa fa-fw fa-key"></i></span>
                         <input type="password" class="form-control form-control-lg" id="password"
                                name="upass" placeholder="Password" aria-label="Password">
                     </div>
