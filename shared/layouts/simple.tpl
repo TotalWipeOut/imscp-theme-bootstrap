@@ -39,15 +39,19 @@
         }
         #header h3 {
             font-size: 1em;
-            padding-top: 5px;
-            padding-left: 5px;
+            padding: 5px;
         }
 
         footer {
             position: absolute;
             bottom: 0;
             left: 0;
+            padding: 5px;
             width: 100%;
+        }
+        footer a {
+            color: #1a1a1a;
+            font-size: 0.8em;
         }
 
     </style>
