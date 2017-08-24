@@ -1,6 +1,6 @@
-<div id="login" class="row" style="margin-top: 100px">
+<div id="login" class="row">
     <form name="login" action="index.php" method="post" class="col-5 mr-auto ml-auto">
-        <div class="card" style="background: rgba(255,255,255,0.2)">
+        <div class="card default">
             <div class="card-header">
                 Control Panel Login
             </div>
@@ -33,10 +33,10 @@
                         <button type="submit" name="Submit" tabindex="3" class="btn btn-primary btn-block">{TR_LOGIN}</button>
                     </div>
                 </div>
-                
+
                 <input type="hidden" name="action" value="login">
             </div>
-            <div class="card-footer">
+            <div class="card-footer {SSL_IMAGE_CLASS}">
                 <p class="card-text">
                     <a class="icon {SSL_IMAGE_CLASS}" href="{SSL_LINK}" title="{TR_SSL_DESCRIPTION}">{TR_SSL}</a>
                 </p>

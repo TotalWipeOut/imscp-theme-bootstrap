@@ -45,6 +45,14 @@
             padding: 5px;
         }
 
+        .card.default {
+            background: rgba(255,255,255,0.2);
+        }
+
+        #login {
+            margin-top: 100px;
+        }
+
         footer {
             position: fixed;
             bottom: 0;

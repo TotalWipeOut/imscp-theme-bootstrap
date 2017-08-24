@@ -1,28 +1,43 @@
-
-<div id="login">
-    <form name="lostpasswordFrm" action="lostpassword.php" method="post">
-        <table>
-            <tr>
-                <td colspan="2" class="center">
+<div id="login" class="row">
+    <form name="lostpasswordFrm" action="lostpassword.php" method="post" class="col-5 mr-auto ml-auto">
+        <div class="card default">
+            <div class="card-header">
+                Reset your password
+            </div>
+            <div class="card-body">
+                <p class="card-text">
                     <a href="lostpassword.php" title="{GET_NEW_IMAGE}">
                         <img id="captcha" src="imagecode.php" width="{CAPTCHA_WIDTH}" height="{CAPTCHA_HEIGHT}" alt="captcha image">
                     </a>
-                </td>
-            </tr>
-            <tr>
-                <td class="left"><label for="capcode">{TR_CAPCODE}</label></td>
-                <td class="right"><input type="text" name="capcode" id="capcode" tabindex="1"></td>
-            </tr>
-            <tr>
-                <td class="left"><label for="uname">{TR_USERNAME}</label></td>
-                <td class="right"><input type="text" name="uname" id="uname" tabindex="2" value="{UNAME}"></td>
-            </tr>
-            <tr>
-                <td colspan="2" class="right">
-                    <button name="Submit" type="submit" tabindex="3">{TR_SEND}</button>
-                    <a class="link_as_button" href="/" tabindex="4">{TR_CANCEL}</a>
-                </td>
-            </tr>
-        </table>
+                </p>
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <span id="username-addon" class="input-group-addon"><i class="fa fa-fw fa-captcha"></i></span>
+                        <input type="text" class="form-control form-control-lg" name="capcode" id="capcode"
+                               value="" placeholder="{TR_CAPCODE}"
+                               aria-describedby="emailHelp" aria-label="Username">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <span id="username-addon" class="input-group-addon"><i class="fa fa-fw fa-user"></i></span>
+                        <input type="text" class="form-control form-control-lg" name="uname" id="uname"
+                               value="{UNAME}" placeholder="Enter username"
+                               aria-describedby="emailHelp" aria-label="Username">
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">The one you signed up with.</small>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a class="link_as_button btn btn-secondary btn-block" href="/" tabindex="4">{TR_CANCEL}</a>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <button type="submit" name="Submit" tabindex="3" class="btn btn-primary btn-block">{TR_SEND}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </form>
 </div>
+
