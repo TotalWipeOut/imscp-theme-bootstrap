@@ -1,21 +1,20 @@
 <div id="login" class="row">
     <form name="lostpasswordFrm" action="lostpassword.php" method="post" class="col-5 mr-auto ml-auto">
-        <div class="card default">
+        <div class="card default rounded">
             <div class="card-header">
                 Reset your password
             </div>
             <div class="card-body">
-                <p class="card-text">
+                <p class="card-text text-center">
                     <a href="lostpassword.php" title="{GET_NEW_IMAGE}">
-                        <img id="captcha" src="imagecode.php" width="{CAPTCHA_WIDTH}" height="{CAPTCHA_HEIGHT}" alt="captcha image">
+                        <img id="captcha" src="imagecode.php" width="{CAPTCHA_WIDTH}" height="{CAPTCHA_HEIGHT}" alt="captcha image" class="img-thumbnail rounded">
                     </a>
                 </p>
                 <div class="form-group">
                     <div class="input-group input-group-lg">
-                        <span id="username-addon" class="input-group-addon"><i class="fa fa-fw fa-captcha"></i></span>
+                        <span id="username-addon" class="input-group-addon"><i class="fa fa-fw fa-terminal"></i></span>
                         <input type="text" class="form-control form-control-lg" name="capcode" id="capcode"
-                               value="" placeholder="{TR_CAPCODE}"
-                               aria-describedby="emailHelp" aria-label="Username">
+                               value="" placeholder="{TR_CAPCODE}"  aria-label="{TR_CAPCODE}">
                     </div>
                 </div>
                 <div class="form-group">
